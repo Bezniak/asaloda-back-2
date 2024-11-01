@@ -1,0 +1,10 @@
+version: 2
+app:
+  name: asaloda-back
+  type: nodejs
+  nodejs:
+    version: 18  # Замените на нужную вам версию Node.js, если требуется
+  env:
+    NODE_ENV: production  # Опционально, для установки окружения
+  start: npm start
+  build: npm run build
